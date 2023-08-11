@@ -22,7 +22,7 @@ def plota_pivot_table(df, value, index, func, ylabel, xlabel, opcao='nada', mese
 
 def main():
     # Lendo os dados a partir da database
-    sinasc = pd.read_csv('SINASC_RO_2019.csv')
+    sinasc = pd.read_csv('./input/SINASC_RO_2019.csv')
     
     # Definindo os meses desejados
     meses_escolhidos = {
